@@ -29,6 +29,10 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 button {
   cursor: pointer;
   font-family: inherit;
@@ -109,6 +113,7 @@ button {
 .hero-container {
   display: flex;
   align-items: center;
+  gap: 35px;
 }
 .hero-list {
   flex-wrap: nowrap;
@@ -138,4 +143,31 @@ button {
   font-weight: 700;
   font-size: 16px;
   color: #fff;
+  margin-right: 30px;
 }
+
+.watch-icon-video {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.text-icon-play {
+  align-items: baseline;
+}
+
+.icon-play {
+  border-radius: 2px;
+  fill: #02897a;
+  align-items: baseline;
+}
+
+.watch-vid {
+  font-weight: 600;
+  font-size: 16px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  color: #02897a;
+  margin-left: 9px;
+}
+/*-----------------section 2--------------------------------------*/
